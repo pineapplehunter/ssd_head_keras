@@ -1,0 +1,232 @@
+[[package]]
+id = 15
+name = "tensorflow"
+version = "1.15.3"
+source = "pypi+https://pypi.org/pypi/tensorflow/1.15.3/json"
+dependencies = ["termcolor 1.1.0 pypi+https://pypi.org/pypi/termcolor/1.1.0/json", "gast 0.2.2 pypi+https://pypi.org/pypi/gast/0.2.2/json", "wheel 0.34.2 pypi+https://pypi.org/pypi/wheel/0.34.2/json", "Keras-Applications 1.0.8 pypi+https://pypi.org/pypi/Keras-Applications/1.0.8/json", "protobuf 3.12.2 pypi+https://pypi.org/pypi/protobuf/3.12.2/json", "opt-einsum 3.2.1 pypi+https://pypi.org/pypi/opt-einsum/3.2.1/json", "tensorflow-estimator 1.15.1 pypi+https://pypi.org/pypi/tensorflow-estimator/1.15.1/json", "tensorboard 1.15.0 pypi+https://pypi.org/pypi/tensorboard/1.15.0/json", "google-pasta 0.2.0 pypi+https://pypi.org/pypi/google-pasta/0.2.0/json", "absl-py 0.9.0 pypi+https://pypi.org/pypi/absl-py/0.9.0/json", "wrapt 1.12.1 pypi+https://pypi.org/pypi/wrapt/1.12.1/json", "astor 0.8.1 pypi+https://pypi.org/pypi/astor/0.8.1/json"]
+
+[[package]]
+id = 14
+name = "PyYAML"
+version = "5.3.1"
+source = "pypi+https://pypi.org/pypi/PyYAML/5.3.1/json"
+dependencies = []
+
+[[package]]
+id = 37
+name = "Keras-Applications"
+version = "1.0.8"
+source = "pypi+https://pypi.org/pypi/Keras-Applications/1.0.8/json"
+dependencies = []
+
+[[package]]
+id = 29
+name = "importlib-metadata"
+version = "1.6.0"
+source = "pypi+https://pypi.org/pypi/importlib-metadata/1.6.0/json"
+dependencies = ["zipp 3.1.0 pypi+https://pypi.org/pypi/zipp/3.1.0/json"]
+
+[[package]]
+id = 20
+name = "termcolor"
+version = "1.1.0"
+source = "pypi+https://pypi.org/pypi/termcolor/1.1.0/json"
+dependencies = []
+
+[[package]]
+id = 33
+name = "protobuf"
+version = "3.12.2"
+source = "pypi+https://pypi.org/pypi/protobuf/3.12.2/json"
+dependencies = ["setuptools 47.1.1 pypi+https://pypi.org/pypi/setuptools/47.1.1/json"]
+
+[[package]]
+id = 42
+name = "matplotlib"
+version = "3.2.1"
+source = "pypi+https://pypi.org/pypi/matplotlib/3.2.1/json"
+dependencies = ["kiwisolver 1.2.0 pypi+https://pypi.org/pypi/kiwisolver/1.2.0/json", "numpy 1.18.5 pypi+https://pypi.org/pypi/numpy/1.18.5/json", "pyparsing 2.4.7 pypi+https://pypi.org/pypi/pyparsing/2.4.7/json", "python-dateutil 2.8.1 pypi+https://pypi.org/pypi/python-dateutil/2.8.1/json", "Cycler 0.10.0 pypi+https://pypi.org/pypi/Cycler/0.10.0/json"]
+
+[[package]]
+id = 2
+name = "opencv-python"
+version = "4.2.0.34"
+source = "pypi+https://pypi.org/pypi/opencv-python/4.2.0.34/json"
+dependencies = []
+
+[[package]]
+id = 5
+name = "Keras-Preprocessing"
+version = "1.1.2"
+source = "pypi+https://pypi.org/pypi/Keras-Preprocessing/1.1.2/json"
+dependencies = []
+
+[[package]]
+id = 28
+name = "Markdown"
+version = "3.2.2"
+source = "pypi+https://pypi.org/pypi/Markdown/3.2.2/json"
+dependencies = ["importlib-metadata 1.6.0 pypi+https://pypi.org/pypi/importlib-metadata/1.6.0/json"]
+
+[[package]]
+id = 35
+name = "opt-einsum"
+version = "3.2.1"
+source = "pypi+https://pypi.org/pypi/opt-einsum/3.2.1/json"
+dependencies = []
+
+[[package]]
+id = 4
+name = "Keras"
+version = "2.2.4"
+source = "pypi+https://pypi.org/pypi/Keras/2.2.4/json"
+dependencies = ["Keras-Preprocessing 1.1.2 pypi+https://pypi.org/pypi/Keras-Preprocessing/1.1.2/json", "h5py 2.10.0 pypi+https://pypi.org/pypi/h5py/2.10.0/json", "PyYAML 5.3.1 pypi+https://pypi.org/pypi/PyYAML/5.3.1/json", "scipy 1.4.1 pypi+https://pypi.org/pypi/scipy/1.4.1/json"]
+
+[[package]]
+id = 19
+name = "wrapt"
+version = "1.12.1"
+source = "pypi+https://pypi.org/pypi/wrapt/1.12.1/json"
+dependencies = []
+
+[[package]]
+id = 40
+name = "astor"
+version = "0.8.1"
+source = "pypi+https://pypi.org/pypi/astor/0.8.1/json"
+dependencies = []
+
+[[package]]
+id = 30
+name = "zipp"
+version = "3.1.0"
+source = "pypi+https://pypi.org/pypi/zipp/3.1.0/json"
+dependencies = []
+
+[[package]]
+id = 44
+name = "six"
+version = "1.15.0"
+source = "pypi+https://pypi.org/pypi/six/1.15.0/json"
+dependencies = []
+
+[[package]]
+id = 48
+name = "Cycler"
+version = "0.10.0"
+source = "pypi+https://pypi.org/pypi/Cycler/0.10.0/json"
+dependencies = []
+
+[[package]]
+id = 26
+name = "setuptools"
+version = "47.1.1"
+source = "pypi+https://pypi.org/pypi/setuptools/47.1.1/json"
+dependencies = []
+
+[[package]]
+id = 8
+name = "scipy"
+version = "1.4.1"
+source = "pypi+https://pypi.org/pypi/scipy/1.4.1/json"
+dependencies = []
+
+[[package]]
+id = 43
+name = "python-dateutil"
+version = "2.8.1"
+source = "pypi+https://pypi.org/pypi/python-dateutil/2.8.1/json"
+dependencies = ["six 1.15.0 pypi+https://pypi.org/pypi/six/1.15.0/json"]
+
+[[package]]
+id = 41
+name = "absl-py"
+version = "0.9.0"
+source = "pypi+https://pypi.org/pypi/absl-py/0.9.0/json"
+dependencies = []
+
+[[package]]
+id = 49
+name = "Pillow"
+version = "7.1.2"
+source = "pypi+https://pypi.org/pypi/Pillow/7.1.2/json"
+dependencies = []
+
+[[package]]
+id = 47
+name = "kiwisolver"
+version = "1.2.0"
+source = "pypi+https://pypi.org/pypi/kiwisolver/1.2.0/json"
+dependencies = []
+
+[[package]]
+id = 39
+name = "gast"
+version = "0.2.2"
+source = "pypi+https://pypi.org/pypi/gast/0.2.2/json"
+dependencies = []
+
+[[package]]
+id = 22
+name = "tensorboard"
+version = "1.15.0"
+source = "pypi+https://pypi.org/pypi/tensorboard/1.15.0/json"
+dependencies = ["Markdown 3.2.2 pypi+https://pypi.org/pypi/Markdown/3.2.2/json", "grpcio 1.29.0 pypi+https://pypi.org/pypi/grpcio/1.29.0/json", "Werkzeug 1.0.1 pypi+https://pypi.org/pypi/Werkzeug/1.0.1/json"]
+
+[[package]]
+id = 38
+name = "google-pasta"
+version = "0.2.0"
+source = "pypi+https://pypi.org/pypi/google-pasta/0.2.0/json"
+dependencies = []
+
+[[package]]
+id = 21
+name = "tensorflow-estimator"
+version = "1.15.1"
+source = "pypi+https://pypi.org/pypi/tensorflow-estimator/1.15.1/json"
+dependencies = []
+
+[[package]]
+id = 31
+name = "grpcio"
+version = "1.29.0"
+source = "pypi+https://pypi.org/pypi/grpcio/1.29.0/json"
+dependencies = []
+
+[[package]]
+id = 11
+name = "h5py"
+version = "2.10.0"
+source = "pypi+https://pypi.org/pypi/h5py/2.10.0/json"
+dependencies = []
+
+[[package]]
+id = 16
+name = "wheel"
+version = "0.34.2"
+source = "pypi+https://pypi.org/pypi/wheel/0.34.2/json"
+dependencies = []
+
+[[package]]
+id = 46
+name = "numpy"
+version = "1.18.5"
+source = "pypi+https://pypi.org/pypi/numpy/1.18.5/json"
+dependencies = []
+
+[[package]]
+id = 45
+name = "pyparsing"
+version = "2.4.7"
+source = "pypi+https://pypi.org/pypi/pyparsing/2.4.7/json"
+dependencies = []
+
+[[package]]
+id = 23
+name = "Werkzeug"
+version = "1.0.1"
+source = "pypi+https://pypi.org/pypi/Werkzeug/1.0.1/json"
+dependencies = []
+
+[metadata]
