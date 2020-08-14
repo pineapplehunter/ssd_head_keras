@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ssd_head_keras"
+name = "head_ssd"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
@@ -8,7 +8,8 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.6"
 pillow = "^7.1.2"
 opencv-python = "^4.2.0"
-tensorflow = "~1.15.0"
+tensorflow = { version = "^1.15.0", optional = true }
+tensorflow-gpu = { version = "^1.15.0", optional = true }
 keras = "==2.2.4"
 numpy = "^1.18.4"
 matplotlib = "^3.2.1"
@@ -16,7 +17,14 @@ matplotlib = "^3.2.1"
 [tool.poetry.dev-dependencies]
 notebook = "^6.0.3"
 pylint = "^2.5.2"
-black = {version = "^19.10b0", allow-prereleases = true}
+black = { version = "^19.10b0", allow-prereleases = true }
+
+[tool.poetry.extras]
+cpu = ["tensorflow"]
+gpu = ["tensorflow-gpu"]
+
+[tool.poetry.scripts]
+main = "head_ssd.head_ssd:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
